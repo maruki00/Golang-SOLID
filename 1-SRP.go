@@ -5,12 +5,11 @@
 
 package main
 
-type Users map[int]*User
-type User struct {
-	Id    int
 	FName string
 	LName string
 }
+
+type Users map[int]*User
 
 // Dab Practice
 // Because User has multiple responsibilities getfull name and save it
