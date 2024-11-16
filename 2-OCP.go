@@ -14,6 +14,10 @@ type Rectangle struct {
 	Height float64
 }
 
+type Circle struct {
+    Radius float64
+}
+
 func Area(rectangle *Rectangle) float64 {
 	return rectangle.Width * rectangle.Height
 }
